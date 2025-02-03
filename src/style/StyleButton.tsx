@@ -124,6 +124,7 @@ export const StyleButton = styled.button<ButtonStyleProps>`
         switch(size){
             case 28:
                 return css`
+                    font-size:14px;
                     min-height:40px;
                     width:170px;
                     padding:0 10px;
@@ -131,6 +132,7 @@ export const StyleButton = styled.button<ButtonStyleProps>`
                 `
             case 36:
                 return css`
+                    font-size:16px;
                     min-height:50px;
                     width:200px;
                     padding:0 10px;
@@ -142,7 +144,7 @@ export const StyleButton = styled.button<ButtonStyleProps>`
                     width:230px;
                     padding:0 10px;
                     gap: 8px;
-                    font-size:17px;
+                    font-size:16px;
                 `
         }
     }}

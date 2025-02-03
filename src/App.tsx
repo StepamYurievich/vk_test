@@ -7,8 +7,8 @@ const App = () => {
     <ClickProvider>
       <div className="app">
         <Main>
-          <Main.Button size={28} colorBg={'#61dafb'} variant={'primary'} count={true} focused={true}>
-            <Button.Counter /*vord='vkontakte'*/ size={20} variant="primary" pulse={false} color='#FFA07A'/>
+          <Main.Button size={36} colorBg={'#ff7d32'} variant={'primary'} count={true} focused={true} vord={'Vkontakte super prosto'}>
+            <Button.Counter size={20} variant="primary" pulse={true} color='#ffcdb0'/>
           </Main.Button>
         </Main>
       </div>  

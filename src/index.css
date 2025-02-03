@@ -8,7 +8,6 @@ body {
 }
 button{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -31,7 +30,7 @@ code {
 .circle_pulse{
   width: 10px;
   height: 10px;
-  background-color: red;
+  background-color: #ffcdb0;
 }
 
 .counter_flex{

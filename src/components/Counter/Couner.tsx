@@ -17,7 +17,7 @@ export const Counter = ({vord,size,variant,pulse,color}:CounterProps) => {
         <StyledCounter size={size} variant={variant} color={color}>
             <div>{newWord ? newWord : size > 12 ? displayValue : ''}</div>
         </StyledCounter>
-        {!pulse && <PulsatingCircle size={size} variant={variant} pulse={pulse} color={color}/>}
+        {pulse && <PulsatingCircle size={size} variant={variant} pulse={pulse} color={color}/>}
       </div>
     )
 }

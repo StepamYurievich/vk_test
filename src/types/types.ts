@@ -34,6 +34,7 @@ export type ButtonProps = {
     variant:string
     count:boolean
     focused:boolean
+    vord?:string
 }
 
 
